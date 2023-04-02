@@ -1,0 +1,28 @@
+@media (min-width: 1440px){
+    .container{
+        max-width: 1440px;
+    }
+    .nav-mobile{
+        display: none;
+    }
+    .phone-desktop{
+        display: flex;
+        flex-direction: column;
+        gap: 0 5px;
+        text-align: center;
+    }
+    .nav-desktop{
+        display: flex;
+    }
+    .preview-inner{
+        text-align: left;
+        display: flex;
+        justify-content: space-between;
+        button{
+            margin-top: 80px;
+        }
+        img{
+            max-width: none;
+        }
+    }
+}

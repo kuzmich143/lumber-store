@@ -1,0 +1,23 @@
+@media (min-width: 540px) {
+  .container {
+    max-width: 720px;
+  }
+  .info-store {
+    display: block;
+  }
+  .preview-inner {
+    text-align: center;
+    background-image: none;
+    display: block;
+  }
+  .preview-inner h1 {
+    font-size: 60px;
+  }
+  .preview-inner p {
+    font-size: 20px;
+  }
+  .preview-inner img {
+    max-width: 540px;
+    display: block;
+  }
+}/*# sourceMappingURL=width-740px.css.map */
